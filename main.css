@@ -168,6 +168,11 @@ header {
 
 .main__img:hover {
     transform: scale(1.1);
+    box-shadow: rgba(255, 104, 3, 0.25) 0px 54px 55px,
+            rgba(244, 124, 4, 0.12) 0px -12px 30px,
+            rgba(255, 111, 1, 0.12) 0px 4px 6px,
+            rgba(246, 124, 1, 0.17) 0px 12px 13px,
+            rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .main__about {
@@ -375,6 +380,7 @@ header {
 
 .fam__img:hover {
     transform: scale(1.1);
+    border-radius: 50%;
 }
 
 .fam__fam {
